@@ -1,0 +1,27 @@
+Files build-1/build-manifest.json and build-2/build-manifest.json differ
+Files build-1/server/middleware-build-manifest.js and build-2/server/middleware-build-manifest.js differ
+Files build-1/server/pages/page35.js and build-2/server/pages/page35.js differ
+Files build-1/server/pages/page36.js and build-2/server/pages/page36.js differ
+Files build-1/server/pages-manifest.json and build-2/server/pages-manifest.json differ
+Only in build-1/static/chunks/pages: page1-85629a20019337f2.js
+Only in build-2/static/chunks/pages: page1-ba39f84853a2c9d3.js
+Only in build-1/static/chunks/pages: page10-9962663a0844a5a5.js
+Only in build-2/static/chunks/pages: page10-a6022076d75ab1d5.js
+Only in build-1/static/chunks/pages: page17-40d69ce0e80e41b1.js
+Only in build-2/static/chunks/pages: page17-cfe2f00fdecd17ce.js
+Only in build-1/static/chunks/pages: page2-17b859c13c8f1b71.js
+Only in build-2/static/chunks/pages: page2-6f2e9fcaa4dd43ae.js
+Only in build-1/static/chunks/pages: page28-0b49b094e1b70efd.js
+Only in build-2/static/chunks/pages: page28-93ee2750cf775b02.js
+Only in build-2/static/chunks/pages: page29-6976fd21510e0e21.js
+Only in build-1/static/chunks/pages: page29-f52db642e0d62e03.js
+Only in build-1/static/chunks/pages: page31-cb9017dccd0b9b03.js
+Only in build-2/static/chunks/pages: page31-f20f584248fb007e.js
+Files build-1/static/repro/_buildManifest.js and build-2/static/repro/_buildManifest.js differ
+page1: ids only in build-1: 38568, only in build-2: 16187
+page10: ids only in build-1: 16187, only in build-2: 38568
+page17: ids only in build-1: 90037, only in build-2: 12418
+page2: ids only in build-1: 12418, only in build-2: 90037
+page28: ids only in build-1: 27315, only in build-2: 49696
+page29: ids only in build-1: 49696 98938, only in build-2: 27315 76557
+page31: ids only in build-1: 76557, only in build-2: 98938

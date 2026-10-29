@@ -1,0 +1,17 @@
+--- a/dist/build/entries.js
++++ b/dist/build/entries.js
+@@ -602,10 +602,11 @@
+     if (edgeServer.instrumentation && Object.keys(edgeServer).length === 1) {
+         delete edgeServer.instrumentation;
+     }
++    const sortObjectByKey = (obj)=>Object.fromEntries(Object.keys(obj).sort().map((key)=>[key, obj[key]]));
+     return {
+-        client,
+-        server,
+-        edgeServer,
++        client: sortObjectByKey(client),
++        server: sortObjectByKey(server),
++        edgeServer: sortObjectByKey(edgeServer),
+         entrySourceDirectories: [
+             ...entrySourceDirectories
+         ].sort(),

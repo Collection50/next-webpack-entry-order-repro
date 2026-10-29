@@ -1,0 +1,15 @@
+Files build-1/build-manifest.json and build-2/build-manifest.json differ
+Files build-1/server/middleware-build-manifest.js and build-2/server/middleware-build-manifest.js differ
+Files build-1/server/pages/page17.js and build-2/server/pages/page17.js differ
+Files build-1/server/pages/page18.js and build-2/server/pages/page18.js differ
+Files build-1/server/pages/page19.js and build-2/server/pages/page19.js differ
+Files build-1/server/pages/page23.js and build-2/server/pages/page23.js differ
+Files build-1/server/pages/page26.js and build-2/server/pages/page26.js differ
+Files build-1/server/pages-manifest.json and build-2/server/pages-manifest.json differ
+Only in build-2/static/chunks/pages: page2-2ba46288cad9125f.js
+Only in build-1/static/chunks/pages: page2-6f2e9fcaa4dd43ae.js
+Only in build-2/static/chunks/pages: page21-535b39090065dfd5.js
+Only in build-1/static/chunks/pages: page21-eebfb98a7034a1b1.js
+Files build-1/static/repro/_buildManifest.js and build-2/static/repro/_buildManifest.js differ
+page2: ids only in build-1: 32857, only in build-2: 55238
+page21: ids only in build-1: 55238, only in build-2: 32857
