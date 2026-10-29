@@ -1,0 +1,64 @@
+Files build-1/app-path-routes-manifest.json and build-2/app-path-routes-manifest.json differ
+Files build-1/server/app/_global-error/page_client-reference-manifest.js and build-2/server/app/_global-error/page_client-reference-manifest.js differ
+Files build-1/server/app/_not-found/page_client-reference-manifest.js and build-2/server/app/_not-found/page_client-reference-manifest.js differ
+Files build-1/server/app/page0/page_client-reference-manifest.js and build-2/server/app/page0/page_client-reference-manifest.js differ
+Files build-1/server/app/page1/page_client-reference-manifest.js and build-2/server/app/page1/page_client-reference-manifest.js differ
+Files build-1/server/app/page10/page_client-reference-manifest.js and build-2/server/app/page10/page_client-reference-manifest.js differ
+Files build-1/server/app/page11/page_client-reference-manifest.js and build-2/server/app/page11/page_client-reference-manifest.js differ
+Files build-1/server/app/page12/page_client-reference-manifest.js and build-2/server/app/page12/page_client-reference-manifest.js differ
+Files build-1/server/app/page13/page_client-reference-manifest.js and build-2/server/app/page13/page_client-reference-manifest.js differ
+Files build-1/server/app/page14/page_client-reference-manifest.js and build-2/server/app/page14/page_client-reference-manifest.js differ
+Files build-1/server/app/page15/page_client-reference-manifest.js and build-2/server/app/page15/page_client-reference-manifest.js differ
+Files build-1/server/app/page16/page_client-reference-manifest.js and build-2/server/app/page16/page_client-reference-manifest.js differ
+Files build-1/server/app/page17/page_client-reference-manifest.js and build-2/server/app/page17/page_client-reference-manifest.js differ
+Files build-1/server/app/page18/page_client-reference-manifest.js and build-2/server/app/page18/page_client-reference-manifest.js differ
+Files build-1/server/app/page19/page_client-reference-manifest.js and build-2/server/app/page19/page_client-reference-manifest.js differ
+Files build-1/server/app/page2/page_client-reference-manifest.js and build-2/server/app/page2/page_client-reference-manifest.js differ
+Files build-1/server/app/page20/page_client-reference-manifest.js and build-2/server/app/page20/page_client-reference-manifest.js differ
+Files build-1/server/app/page21/page_client-reference-manifest.js and build-2/server/app/page21/page_client-reference-manifest.js differ
+Files build-1/server/app/page22/page_client-reference-manifest.js and build-2/server/app/page22/page_client-reference-manifest.js differ
+Files build-1/server/app/page23/page_client-reference-manifest.js and build-2/server/app/page23/page_client-reference-manifest.js differ
+Files build-1/server/app/page24/page_client-reference-manifest.js and build-2/server/app/page24/page_client-reference-manifest.js differ
+Files build-1/server/app/page25/page_client-reference-manifest.js and build-2/server/app/page25/page_client-reference-manifest.js differ
+Files build-1/server/app/page26/page_client-reference-manifest.js and build-2/server/app/page26/page_client-reference-manifest.js differ
+Files build-1/server/app/page27/page_client-reference-manifest.js and build-2/server/app/page27/page_client-reference-manifest.js differ
+Files build-1/server/app/page28/page_client-reference-manifest.js and build-2/server/app/page28/page_client-reference-manifest.js differ
+Files build-1/server/app/page29/page.js and build-2/server/app/page29/page.js differ
+Files build-1/server/app/page29/page_client-reference-manifest.js and build-2/server/app/page29/page_client-reference-manifest.js differ
+Files build-1/server/app/page3/page.js and build-2/server/app/page3/page.js differ
+Files build-1/server/app/page3/page_client-reference-manifest.js and build-2/server/app/page3/page_client-reference-manifest.js differ
+Files build-1/server/app/page30/page_client-reference-manifest.js and build-2/server/app/page30/page_client-reference-manifest.js differ
+Files build-1/server/app/page31/page_client-reference-manifest.js and build-2/server/app/page31/page_client-reference-manifest.js differ
+Files build-1/server/app/page32/page_client-reference-manifest.js and build-2/server/app/page32/page_client-reference-manifest.js differ
+Files build-1/server/app/page33/page_client-reference-manifest.js and build-2/server/app/page33/page_client-reference-manifest.js differ
+Files build-1/server/app/page34/page_client-reference-manifest.js and build-2/server/app/page34/page_client-reference-manifest.js differ
+Files build-1/server/app/page35/page_client-reference-manifest.js and build-2/server/app/page35/page_client-reference-manifest.js differ
+Files build-1/server/app/page36/page_client-reference-manifest.js and build-2/server/app/page36/page_client-reference-manifest.js differ
+Files build-1/server/app/page37/page_client-reference-manifest.js and build-2/server/app/page37/page_client-reference-manifest.js differ
+Files build-1/server/app/page38/page_client-reference-manifest.js and build-2/server/app/page38/page_client-reference-manifest.js differ
+Files build-1/server/app/page39/page_client-reference-manifest.js and build-2/server/app/page39/page_client-reference-manifest.js differ
+Files build-1/server/app/page4/page_client-reference-manifest.js and build-2/server/app/page4/page_client-reference-manifest.js differ
+Files build-1/server/app/page5/page_client-reference-manifest.js and build-2/server/app/page5/page_client-reference-manifest.js differ
+Files build-1/server/app/page6/page_client-reference-manifest.js and build-2/server/app/page6/page_client-reference-manifest.js differ
+Files build-1/server/app/page7/page_client-reference-manifest.js and build-2/server/app/page7/page_client-reference-manifest.js differ
+Files build-1/server/app/page8/page_client-reference-manifest.js and build-2/server/app/page8/page_client-reference-manifest.js differ
+Files build-1/server/app/page9/page_client-reference-manifest.js and build-2/server/app/page9/page_client-reference-manifest.js differ
+Files build-1/server/app-paths-manifest.json and build-2/server/app-paths-manifest.json differ
+Only in build-2/static/chunks/app/page14: page-44e21e7c997baa7d.js
+Only in build-1/static/chunks/app/page14: page-f852d778934d9a61.js
+Only in build-2/static/chunks/app/page15: page-2777b690c92b804f.js
+Only in build-1/static/chunks/app/page15: page-348c04cc3eb45ad7.js
+Only in build-1/static/chunks/app/page17: page-c8f728703005da43.js
+Only in build-2/static/chunks/app/page17: page-d0c4ec0fb2e0b0b6.js
+Only in build-1/static/chunks/app/page18: page-188fae04306ef52a.js
+Only in build-2/static/chunks/app/page18: page-ec70726ce678e075.js
+Only in build-2/static/chunks/app/page2: page-b09c6c50a2f614e3.js
+Only in build-1/static/chunks/app/page2: page-bd2f6dda89569994.js
+Only in build-1/static/chunks/app/page20: page-8e9ded4148b2ac8a.js
+Only in build-2/static/chunks/app/page20: page-ab5caf484fa4b3b5.js
+app/page14/page: ids only in build-1: 30405, only in build-2: 52786
+app/page15/page: ids only in build-1: 52786, only in build-2: 30405
+app/page17/page: ids only in build-1: 68080, only in build-2: 45699
+app/page18/page: ids only in build-1: 45699, only in build-2: 68080
+app/page2/page: ids only in build-1: 43822 50288 6018 77309 9351, only in build-2: 21441 27907 31732 83637 99690
+app/page20/page: ids only in build-1: 21441 27907 31732 83637 99690, only in build-2: 43822 50288 6018 77309 9351

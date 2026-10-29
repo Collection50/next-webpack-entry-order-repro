@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "generate": "node generate.mjs",
+    "generate:app": "node generate-app.mjs",
     "build": "next build --webpack"
   },
   "dependencies": {

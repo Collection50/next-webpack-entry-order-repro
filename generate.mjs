@@ -14,6 +14,7 @@ let seed = 1
 const random = () => (seed = (seed * 16807) % 2147483647) / 2147483647
 const pick = (n) => Math.floor(random() * n)
 
+rmSync('app', { recursive: true, force: true }) // from generate-app.mjs
 for (const dir of ['pages', 'components']) {
   rmSync(dir, { recursive: true, force: true })
   mkdirSync(`${dir}`, { recursive: true })

@@ -5,11 +5,18 @@
 # files under .next that differ between the two builds in results/. `fixed`
 # applies fix.patch to node_modules/next first, `original` reverts it.
 # preview-props.json and prerender-manifest.json hold preview mode keys that
-# are random on every build, so they are left out.
+# are random on every build, so they are left out. The Server Actions
+# encryption key is random on every build too, so it is pinned.
+#
+# Results of the App Router app (generate-app.mjs) are written with an `app-`
+# prefix.
 set -euo pipefail
 
 mode=${1:?usage: ./compare.sh <original|fixed> [rounds]}
 rounds=${2:-3}
+[ -d app ] && prefix=app- || prefix=
+
+export NEXT_SERVER_ACTIONS_ENCRYPTION_KEY=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 
 is_fixed() { patch -p1 -R -s -f --dry-run -d node_modules/next < fix.patch > /dev/null; }
 case $mode in
@@ -28,18 +35,20 @@ for ((round = 1; round <= rounds; round++)); do
     mv .next "build-$i"
   done
 
-  out="results/$mode-$round.txt"
+  out="results/$prefix$mode-$round.txt"
   diff -rq build-1 build-2 -x cache -x trace -x trace-build \
     -x preview-props.json -x prerender-manifest.json > "$out" || true
 
   # For each page chunk whose file name changed, show the module ids it swapped.
-  for a in build-1/static/chunks/pages/*.js; do
-    name=$(basename "$a" | sed -E 's/-[0-9a-f]+\.js$//')
-    b=$(echo build-2/static/chunks/pages/"$name"-*.js)
+  for a in build-1/static/chunks/pages/*.js build-1/static/chunks/app/*/page-*.js; do
+    [ -e "$a" ] || continue
+    stem=${a%-*}
+    b=$(echo "build-2${stem#build-1}"-*.js)
     [ "$(basename "$a")" = "$(basename "$b")" ] && continue
-    echo "$name: ids only in build-1: $(comm -23 <(module_ids "$a") <(module_ids "$b") | xargs)," \
+    name=${stem#build-1/static/chunks/}
+    echo "${name#pages/}: ids only in build-1: $(comm -23 <(module_ids "$a") <(module_ids "$b") | xargs)," \
       "only in build-2: $(comm -13 <(module_ids "$a") <(module_ids "$b") | xargs)" >> "$out"
   done
 
-  echo "$mode round $round: $(grep -cE '^(Files|Only in)' "$out" || true) differing files"
+  echo "$prefix$mode round $round: $(grep -cE '^(Files|Only in)' "$out" || true) differing files"
 done
