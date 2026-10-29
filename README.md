@@ -3,8 +3,8 @@
 Reproduction for non-deterministic `next build --webpack` output caused by the
 order of entries returned by `createEntrypoints`.
 
-- Fix: TBD (PR link)
-- Related: vercel/next.js#63201
+- Fix: https://github.com/vercel/next.js/pull/100888
+- Related: https://github.com/vercel/next.js/issues/63201
 
 ## What happens
 
